@@ -8,8 +8,7 @@ See requirements.txt
 
 
 ### Early tests.
-
-Explain what these tests test and why
+For a brief overlook at some of the program's key features, run it like so. Note that the program is on a very early development stage.
 
 ```
 python3.6 main.py
