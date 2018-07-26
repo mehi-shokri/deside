@@ -24,7 +24,8 @@ python3.6 main.py
 * (Optional) Signal smoothing. See [FILTERS](https://github.com/zadewg/deside-COMING-SOON/edit/master/FILTERS.py)
 * Digital conversion with hystheresis.
 * (Optional) Packet decoding, checksum.
-* (Optional) Statistical analysis
+* (Optional) Statistical colision analysis on decoded ps2 packets.
+* (Optional) Statistcal frequency analysis on decoded messages.
 
 
 ## Attack scenario.
