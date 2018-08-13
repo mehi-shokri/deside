@@ -17,7 +17,7 @@ python3.6 main.py
 ## Program flow.
 
 * Data source parsing
-* (Optional) Unasynchronous source correction.
+* (Optional) Asynchronous source correction.
 * (Optional) Discrete time iFFT based 50-60 Hertz power grid noise reduction. 
 * Discrete time FIR based band pass filter to isolate target frequency.
 * (Optional) Signal smoothing. See [FILTERS](https://github.com/zadewg/deside-COMING-SOON/edit/master/FILTERS.py)
