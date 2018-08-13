@@ -38,11 +38,6 @@ python3.6 main.py
 * [Ripyl](https://github.com/kevinpt/ripyl) - Protocol decode and synthesis library.
 
 
-### Author
-
-* **mapez** - [telegram](https://t.me/mapezz)
-
-
 ### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
@@ -51,3 +46,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ### Acknowledgments
 
 * [Sniff keystrokes with lasers/voltmeters -Defcon 2009](http://www.blackhat.com/presentations/bh-usa-09/BARISANI/BHUSA09-Barisani-Keystrokes-SLIDES.pdf)
+
+---
+
+**mapez** - [telegram](https://t.me/mapezz)
