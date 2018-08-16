@@ -14,17 +14,17 @@ For a brief overlook at some of the program's key features, run it like so. Note
 python3.6 main.py
 ```
 
-## Program flow.
+## Program features and flow.
 
 * Data source parsing
-* (Optional) Asynchronous source correction.
-* (Optional) Discrete time iFFT based 50-60 Hertz power grid noise reduction. 
+* Asynchronous source correction.
+* Discrete time iFFT/notch based 50-60 Hertz power grid noise reduction. 
 * Discrete time FIR based band pass filter to isolate target frequency.
-* (Optional) Signal smoothing. See [FILTERS](https://github.com/zadewg/deside-COMING-SOON/edit/master/FILTERS.py)
+* Signal smoothing. See [FILTERS](.#Filters)
 * Digital conversion with hystheresis.
-* (Optional) Packet decoding, checksum.
-* (Optional) Statistical colision analysis on decoded ps2 packets.
-* (Optional) Statistcal frequency analysis on decoded messages.
+* Packet decoding, checksum.
+* Statistical collision attack on ps2 packets.
+* Statistcal frequency analysis on decoded text messages.
 
 
 ## Attack scenario.
@@ -33,7 +33,9 @@ python3.6 main.py
 [Tip](https://www.alibaba.com/product-detail/Vandalproof-16-Keys-Stainless-Steel-Keyboard_60817438401.html?spm=a2700.galleryofferlist.normalList.23.47c676f0u6gqsh)
 
 
+### Filters
 
+aa
 ### Built With
 
 * [Ripyl](https://github.com/kevinpt/ripyl) - Protocol decode and synthesis library.
