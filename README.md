@@ -2,10 +2,15 @@
 A tool for side chanel data leakage attacks. Pre-alpha.
 
 
-## Prerequisites
-
-See requirements.txt
-
+## Install
+'''
+$ git clone https://github.com/zadewg/deside/
+$ cd deside
+$ pip install -r requrements.txt
+$ git clone https://github.com/kevinpt/ripyl
+$ cd ripyl
+$ python setup.py install
+'''
 
 ### Early tests.
 For a brief overlook at some of the program's key features, run it like so. Note that the program is on a very early development stage.
@@ -45,7 +50,7 @@ Animation showing SG smoothing being applied, passing through the data from left
 * Savitzky-Golay
 
 See [FILTERS](https://github.com/zadewg/deside/blob/master/FILTERS.py) for details.
----
+
 ## Decoding
 
 Suported protocols:
