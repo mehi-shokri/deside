@@ -73,10 +73,34 @@ Built with [Ripyl](https://github.com/kevinpt/ripyl) - Protocol decode and synth
 
 ## Suported input
 
-Deside accepts input as bidimensional matrix in (time:value) format, separate time/value arrays, and csv files in time, value format with no titles, as in [oscil.csv](https://github.com/zadewg/deside/blob/master/oscil.csv). This is Hantekś default format.
+Deside accepts input as bidimensional matrix in (time:value) format, separate time/value arrays, and csv files in time, value format, as in [oscil.csv](https://github.com/zadewg/deside/blob/master/oscil.csv). This is Hantekś default format.
 
-Other osciloscopes and formats are supported by using the [CONVERSION]() module
+Rigol, LeCroy, and some Tektronix osciloscopes formats are also supported by using the [CONVERSION]() module.
 
+```bash
+$ python3.6 CONVERSION.py -h
+
+usage: CONVERSION.py [-h] -if INFILE -of OUTFILE -o OSCILLOSCOPE [-c CHANNEL]
+
+https://github.com/zadewg/deside
+
+Arguments:
+
+  -h, --help            show this help message and exit
+  
+  -if INFILE, --infile INFILE
+                        Input data filename
+                        
+  -of OUTFILE, --outfile OUTFILE
+                        Output data filename
+                        
+  -o OSCILLOSCOPE, --oscilloscope OSCILLOSCOPE
+                        Oscilloscope brand. Supported: Rigol, LeCroix, Tektronix
+                        
+  -c CHANNEL, --channel CHANNEL
+                        Specify channel if neccesary. Default=1
+
+```
 
 Example output:
 
