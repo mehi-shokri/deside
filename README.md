@@ -13,12 +13,12 @@ $ cd ripyl
 $ python setup.py install
 ```
 
-### Early tests.
+### Early tests
 For a brief overlook at some of the program's key features, run it like so. Note that the program is on a very early development stage.
 
 ``python3.6 main.py``
 
-## Program features and flow.
+## Program features and flow
 
 * Data source parsing
 * Asynchronous source correction.
@@ -31,7 +31,7 @@ For a brief overlook at some of the program's key features, run it like so. Note
 * Statistcal frequency analysis on decoded text messages.
 
 
-## Attack scenario.
+## Attack scenario
 
 *Coming soon.
 [Tip](https://www.alibaba.com/product-detail/Vandalproof-16-Keys-Stainless-Steel-Keyboard_60817438401.html?spm=a2700.galleryofferlist.normalList.23.47c676f0u6gqsh)
@@ -71,7 +71,7 @@ Suported protocols:
 
 Built with [Ripyl](https://github.com/kevinpt/ripyl) - Protocol decode and synthesis library.
 
-## Suported input.
+## Suported input
 
 Deside accepts input as bidimensional matrix in (time:value) format, separate time/value arrays, and csv files in time, value format with no titles, as in [oscil.csv](https://github.com/zadewg/deside/blob/master/oscil.csv). This is Hantekś default format.
 
@@ -80,7 +80,7 @@ Other osciloscopes and formats are supported by using the [CONVERSION]() module
 
 Example output:
 
-|               |               | 
+|     Time      |    Voltage    | 
 |---------------|---------------| 
 | 0.0000000000  | -0.4897959184 | 
 | 0.0000100000  | -0.4693877551 | 
