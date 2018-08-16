@@ -45,8 +45,8 @@ Animation showing SG smoothing being applied, passing through the data from left
 * Savitzky-Golay
 
 See [FILTERS](https://github.com/zadewg/deside/blob/master/FILTERS.py) for details.
-
-### Decoding
+---
+## Decoding
 
 Suported protocols:
 * PS/2
