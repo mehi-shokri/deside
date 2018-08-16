@@ -102,7 +102,7 @@ Arguments:
 
 ```
 
-Example output:
+*Example output:*
 
 |     Time      |    Voltage    | 
 |---------------|---------------| 
