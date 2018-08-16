@@ -82,8 +82,6 @@ $ python3.6 CONVERSION.py -h
 
 usage: CONVERSION.py [-h] -if INFILE -of OUTFILE -o OSCILLOSCOPE [-c CHANNEL]
 
-https://github.com/zadewg/deside
-
 Arguments:
 
   -h, --help            show this help message and exit
@@ -116,7 +114,7 @@ Arguments:
 
 ## Importing deside
 ``` python
-bla bla bla
+from deside import ASYNC, CONVERSION, DIMENSIONS, FFT, FILTERS, THRESHOLD, PCA
 ```
 
 ### Acknowledgments
