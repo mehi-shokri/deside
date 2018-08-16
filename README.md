@@ -3,14 +3,15 @@ A tool for side chanel data leakage attacks. Pre-alpha.
 
 
 ## Install
-'''
+
+```
 $ git clone https://github.com/zadewg/deside/
 $ cd deside
 $ pip install -r requrements.txt
 $ git clone https://github.com/kevinpt/ripyl
 $ cd ripyl
 $ python setup.py install
-'''
+```
 
 ### Early tests.
 For a brief overlook at some of the program's key features, run it like so. Note that the program is on a very early development stage.
