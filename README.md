@@ -35,13 +35,14 @@ python3.6 main.py
 
 ## Smoothing Filters
 <a name="filters"></a>
-See[FILTERS](https://github.com/zadewg/deside/blob/master/FILTERS.py) for details.
+See [FILTERS](https://github.com/zadewg/deside/blob/master/FILTERS.py) for details.
 
 * Moving average
 * Moving median
 * Direct form II transposed standard difference equation IIR/FIR
 * Savitzky-Golay
-![Alt Text](upload.wikimedia.org/wikipedia/commons/thumb/8/89/Lissage_sg3_anim.gif/400px-Lissage_sg3_anim.gif)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Lissage_sg3_anim.gif/400px-Lissage_sg3_anim.gif)
+
 Animation showing smoothing being applied, passing through the data from left to right. The red line represents the local polynomial being used to fit a sub-set of the data. The smoothed values are shown as circles.
 
 ### Decoding
