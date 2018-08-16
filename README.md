@@ -20,7 +20,7 @@ python3.6 main.py
 * Asynchronous source correction.
 * Discrete time iFFT/notch based 50-60 Hertz power grid noise reduction. 
 * Discrete time FIR based band pass filter to isolate target frequency.
-* Signal smoothing. See [FILTERS](.#Filters)
+* Signal smoothing. See [FILTERS](.###Filters)
 * Digital conversion with hystheresis.
 * Packet decoding, checksum.
 * Statistical collision attack on ps2 packets.
