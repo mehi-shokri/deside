@@ -77,7 +77,7 @@ Deside accepts input as bidimensional matrix in (time:value) format, separate ti
 
 Rigol, LeCroy, and some Tektronix osciloscopes formats are also supported by using the [CONVERSION]() module.
 
-```bash
+```
 $ python3.6 CONVERSION.py -h
 
 usage: CONVERSION.py [-h] -if INFILE -of OUTFILE -o OSCILLOSCOPE [-c CHANNEL]
