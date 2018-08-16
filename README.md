@@ -20,7 +20,7 @@ python3.6 main.py
 * Asynchronous source correction.
 * Discrete time iFFT/notch based 50-60 Hertz power grid noise reduction. 
 * Discrete time FIR based band pass filter to isolate target frequency.
-* Signal smoothing. See [FILTERS](#filters)
+* Signal smoothing. See [SMOTHING](#filters)
 * Digital conversion with hystheresis.
 * Packet decoding, checksum.
 * Statistical collision attack on ps2 packets.
@@ -31,15 +31,40 @@ python3.6 main.py
 
 *Coming soon.
 [Tip](https://www.alibaba.com/product-detail/Vandalproof-16-Keys-Stainless-Steel-Keyboard_60817438401.html?spm=a2700.galleryofferlist.normalList.23.47c676f0u6gqsh)
----
 
-## Filters
+
+## Smoothing Filters
 <a name="filters"></a>
+See[FILTERS](https://github.com/zadewg/deside/blob/master/FILTERS.py) for details.
 
+* Moving average
+* Moving median
+* Direct form II transposed standard difference equation IIR/FIR
+* Savitzky-Golay
+![Alt Text](upload.wikimedia.org/wikipedia/commons/thumb/8/89/Lissage_sg3_anim.gif/400px-Lissage_sg3_anim.gif)
+Animation showing smoothing being applied, passing through the data from left to right. The red line represents the local polynomial being used to fit a sub-set of the data. The smoothed values are shown as circles.
 
-### Built With
+### Decoding
 
-* [Ripyl](https://github.com/kevinpt/ripyl) - Protocol decode and synthesis library.
+Suported protocols:
+* PS/2
+* CAN
+* ETHERNET
+* I2C
+* ISO K-line (ISO 9141 and ISO 14230)
+* J1850
+* LIN
+* LM73
+* NEC Infrared
+* OBD-2
+* Philips RC-5 Infrared
+* Philips RC-6 Infrared
+* Sony SIRC Infrared
+* SPI
+* UART
+* USB 2.0
+
+Built with [Ripyl](https://github.com/kevinpt/ripyl) - Protocol decode and synthesis library.
 
 
 ### License
