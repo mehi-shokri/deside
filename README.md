@@ -36,9 +36,8 @@ For a brief overlook at some of the program's key features, run it like so. Note
 *Coming soon.
 [Tip](https://www.alibaba.com/product-detail/Vandalproof-16-Keys-Stainless-Steel-Keyboard_60817438401.html?spm=a2700.galleryofferlist.normalList.23.47c676f0u6gqsh)
 
-
-## Smoothing Filters
 <a name="filters"></a>
+## Smoothing Filters
 Animation showing SG smoothing being applied, passing through the data from left to right. The red line represents the local polynomial being used to fit a sub-set of the data. The smoothed values are shown as circles.
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Lissage_sg3_anim.gif/400px-Lissage_sg3_anim.gif)
 
@@ -73,15 +72,12 @@ Suported protocols:
 Built with [Ripyl](https://github.com/kevinpt/ripyl) - Protocol decode and synthesis library.
 
 
-### License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-
 ### Acknowledgments
 
 * [Sniff keystrokes with lasers/voltmeters -Defcon 2009](http://www.blackhat.com/presentations/bh-usa-09/BARISANI/BHUSA09-Barisani-Keystrokes-SLIDES.pdf)
 
 ---
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 **mapez** - [telegram](https://t.me/mapezz)
