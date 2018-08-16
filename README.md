@@ -71,6 +71,25 @@ Suported protocols:
 
 Built with [Ripyl](https://github.com/kevinpt/ripyl) - Protocol decode and synthesis library.
 
+## Suported input.
+
+Deside accepts input as bidimensional matrix in (time:value) format, separate time/value arrays, and csv files in time, value format with no titles, as in [oscil.csv](https://github.com/zadewg/deside/blob/master/oscil.csv). This is Hantekś default format.
+
+Other osciloscopes and formats are supported by using the [CONVERSION]() module
+
+
+Example output:
+
+|               |               | 
+|---------------|---------------| 
+| 0.0000000000  | -0.4897959184 | 
+| 0.0000100000  | -0.4693877551 | 
+| 0.0000200000  | -0.4693877551 | 
+| 0.0000300000  | -0.4693877551 | 
+| 0.0000400000  | -0.4897959184 | 
+| 0.0000500000  | -0.4693877551 | 
+| 0.0000600000  | -0.4693877551 | 
+
 
 ### Acknowledgments
 
