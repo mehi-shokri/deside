@@ -112,9 +112,75 @@ Arguments:
 | 0.0000500000  | -0.4693877551 | 
 | 0.0000600000  | -0.4693877551 | 
 
-## Importing deside
+## Importing deside examples
+
+##### Working with data
 ``` python
-from deside import ASYNC, CONVERSION, DIMENSIONS, FFT, FILTERS, THRESHOLD, PCA
+  from deside.DIMENSIONS import SourceData
+
+csvdata = SourceData(CSV='oscil.csv')
+x1 = csvdata.Xpoints
+y1 = csvdata.Ypoints
+matrix1 = csvdata.Matrix
+
+arraydata = SourceData(X=[1,2,3,4], Y=[4,3,2,1])
+x2 = arraydata.Xpoints
+y2 = arraydata.Ypoints
+matrix2 = arraydata.Matrix
+
+matrixdata = SourceData(Matrix = [[1,4],[2,3],[3,2],[4,1]])
+x3 = matrixdata.Xpoints
+y3 = matrixdata.Ypoints
+matrix3 = matrixdata.Matrix
+
+assert x1 == x2 == x3
+assert y1 == y2 == y3
+assert matrix1 == matrix2 == matrix3
+```
+
+##### Checking if data has constant frequency
+``` python
+from deside.ASYNC import Sync
+from deside.DIMENSIONS import SourceData
+
+
+csvdata = SourceData(CSV='oscil.csv')
+time = csvdata.Xpoints
+print(Sync().check(time)) #returns True / False
+```
+
+##### Band stop filter
+``` python
+from deside.FFT import Fourier
+from deside.DIMENSIONS import SourceData
+
+csvdata = SourceData(CSV='oscil.csv')
+values = csvdata.Ypoints
+clean = Fourier().degrid(values, freq=[50, 60]) #removes 50, 60hz signals.
+```
+##### Smoothing
+``` python
+from deside.FILTERS import NoiseWork
+from deside.DIMENSIONS import SourceData
+
+
+csvdata = SourceData(CSV='oscil.csv')
+signal = csvdata.Ypoints
+
+noisy= NoiseWork(signal).AN 
+moving_average = NoiseWork(noisy).MA
+```
+#### Digital conversion
+``` python
+from deside.THRESHOLD import hyst
+from deside.DIMENSIONS import SourceData
+
+
+csvdata = SourceData(CSV='oscil.csv')
+signal = csvdata.Ypoints
+time = csvdata.Xpoints
+
+hysts = hyst(time, signal, 1, 60, 10).hysts 
 ```
 
 ### Acknowledgments
