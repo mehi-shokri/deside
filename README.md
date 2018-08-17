@@ -170,7 +170,7 @@ signal = csvdata.Ypoints
 noisy= NoiseWork(signal).AN 
 moving_average = NoiseWork(noisy).MA
 ```
-#### Digital conversion
+##### Digital conversion
 ``` python
 from deside.THRESHOLD import hyst
 from deside.DIMENSIONS import SourceData
