@@ -116,7 +116,7 @@ Arguments:
 
 ##### Working with data
 ``` python
-  from deside.DIMENSIONS import SourceData
+from deside.DIMENSIONS import SourceData
 
 csvdata = SourceData(CSV='oscil.csv')
 x1 = csvdata.Xpoints
@@ -158,7 +158,7 @@ csvdata = SourceData(CSV='oscil.csv')
 values = csvdata.Ypoints
 clean = Fourier().degrid(values, freq=[50, 60]) #removes 50, 60hz signals.
 ```
-##### Smoothing
+##### Signal smoothing
 ``` python
 from deside.FILTERS import NoiseWork
 from deside.DIMENSIONS import SourceData
@@ -167,7 +167,7 @@ from deside.DIMENSIONS import SourceData
 csvdata = SourceData(CSV='oscil.csv')
 signal = csvdata.Ypoints
 
-noisy= NoiseWork(signal).AN 
+noisy = NoiseWork(signal).AN 
 moving_average = NoiseWork(noisy).MA
 ```
 ##### Digital conversion
