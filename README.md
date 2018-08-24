@@ -75,7 +75,7 @@ Built with [Ripyl](https://github.com/kevinpt/ripyl) - Protocol decode and synth
 
 Deside accepts input as bidimensional matrix in (time:value) format, separate time/value arrays, and csv files in time, value format, as in [oscil.csv](https://github.com/zadewg/deside/blob/master/oscil.csv). This is Hantekś default format.
 
-Rigol, LeCroy, and some Tektronix osciloscopes formats are also supported by using the [CONVERSION]() module.
+Rigol, LeCroy, and some Tektronix osciloscopes formats are also supported by using the [CONVERSION](https://github.com/zadewg/deside/blob/master/CONVERSION.py) module.
 
 ```
 $ python3.6 CONVERSION.py -h
