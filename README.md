@@ -131,6 +131,8 @@ leakage emission has an output power of ~1 nW (10^-9 Watt).*
 In conclusion the results clearly show that information about the keyboard
 keystrokes indeed leaks on the power grid and can be remotely detected.
 
+&nbsp; 
+
 Other potential uses for this software might be:
 - PCB/IC micro probing
 - OTA data leakage analysis
