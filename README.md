@@ -66,9 +66,7 @@ wire and/or cable shielding due to electromagnetic coupling.
 
 The ground wire as well as the cable shielding are routed to the main power
 adapter/cable ground which is then connected to the power socket and finally
-the electric grid.
-
-This eventually leads to keystrokes leakage to the electric grid which can then
+the electric grid. This eventually leads to keystrokes leakage to the electric grid which can then
 be detected on the power outlet itself, including nearby ones sharing the same
 electric line.
 
@@ -132,6 +130,11 @@ leakage emission has an output power of ~1 nW (10^-9 Watt).*
 
 In conclusion the results clearly show that information about the keyboard
 keystrokes indeed leaks on the power grid and can be remotely detected.
+
+Other potential uses for this software might be:
+- PCB/IC micro probing
+- OTA data leakage analysis
+- General Tempest
 
 
 <a name="filters"></a>
