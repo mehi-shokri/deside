@@ -1,4 +1,4 @@
-# deside 
+# DESIDE
 A tool for side chanel data leakage attacks. Alpha.
 
 
