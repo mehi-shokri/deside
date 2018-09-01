@@ -132,7 +132,7 @@ a typical copper cable with a coefficient of 0.1 dB after 60m theoretically
 (strong emphasis here) 50% of the signal survives. For reference a typical
 leakage emission has an output power of ~1 nW (10^-9 Watt).*
 
-In conclusion, results clearly show that information indeed leaks to the power grid and keystrokes can be remotely measured and processed with great reliability.
+In conclusion, results clearly show that information is indeed leaked to the power grid and keystrokes can be remotely measured and processed with great reliability.
 
 
 &nbsp; 
