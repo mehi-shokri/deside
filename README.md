@@ -34,6 +34,9 @@ For a brief overlook at some of the program's key features, run it like so. Note
 
 ## Attack scenario
 
+` Theoretically, any single ended signaling electrical information transmision can be exploited using this approach. Differential signaling should be used to harden a lines against this attack vector.`
+
+&nbsp; 
 
 The PS/2 signal represents an appealing and relatively favourable target for
 eavesdropping. The main advantage is its serial nature as data is transmitted
@@ -132,10 +135,6 @@ leakage emission has an output power of ~1 nW (10^-9 Watt).*
 
 In conclusion the results clearly show that information about the keyboard
 keystrokes indeed leaks on the power grid and can be remotely detected.
-
-&nbsp; 
-
-`This vector of attack is be eliminated by using differential signaling in electrical information transmisions.`
 
 &nbsp; 
 
