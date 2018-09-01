@@ -37,7 +37,7 @@ The PS/2 signal represents an appealing and relatively favourable target for
 eavesdropping. The main advantage is its serial nature as data is transmitted
 one bit at a time. Also, PS/2 use is widely spread across IoT solutions, such as [ATMs](https://www.alibaba.com/product-detail/Vandalproof-16-Keys-Stainless-Steel-Keyboard_60817438401.html?spm=a2700.galleryofferlist.normalList.23.47c676f0u6gqsh) or  Security Access Control Systems.
 
-Cable Pinout:
+**Cable Pinout**
 
 <img align="right" src="/overview/ps2pinout.png" title="Angular" hspace="20" height="150" width="150"/>
 
@@ -97,7 +97,7 @@ the Earth, a sink or toilet pipe is perfect for this purpose (while albeit not
 very classy) and easily reachable (especially if you are performing the attack
 from an hotel room).
 
-Diagram:
+**Setup diagram**
 
 ```
          power socket     power socket
