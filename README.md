@@ -34,7 +34,7 @@ For a brief overlook at some of the program's key features, run it like so. Note
 
 ## Attack scenario
 
-` Theoretically, any single ended signaling electrical information transmision can be exploited using this approach. Differential signaling should be used to harden a lines against this attack vector.`
+` Theoretically, any single ended signaling electrical information transmision can be exploited using this approach. Differential signaling should be used to harden a line against this attack vector.`
 
 &nbsp; 
 
