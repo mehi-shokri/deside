@@ -78,15 +78,11 @@ allows noise filtering and keystrokes signal extraction.
 
 &nbsp; 
 
-In order to implement the attack the ground from a nearby power socket is
-routed to an oscilloscope used as an ADC using a modified power cable (remember the disclaimer) which
+In order to implement the attack the ground from a nearby (same electric system within a reasonable range)  power socket is
+routed to an oscilloscope used as an ADC using a modified power cable which
 separates the ground wire for probing and includes a resistor between the two
 probe hooks. The current dispersed on the ground is measured using the voltage
 potential difference between the two ends of the resistor.
-
-With "nearby" power socket we identify anything connected to the same electric
-system within a reasonable range, distances are discussed in the results
-paragraph.
 
 In order to accomplish the measurement a "reference" ground is needed, as any
 ADC would need a proper ground for its own operation but at the same time the
