@@ -138,6 +138,7 @@ Other potential uses for this software might be:
 - Touchless, passive, PCB/IC micro probing.
 - Over-The-Air data leakage analysis (ADC connected to an antenna).
 - General TEMPEST.
+- General scientific data processing.
 
 
 <a name="filters"></a>
