@@ -39,13 +39,13 @@ one bit at a time. Also, PS/" is use is idely spread across IoT solutions, such 
 
 Cable Pinout:
 
-<pre>
-                                  
-- Pin 1:  +DATA    Data                         ---- 
-- Pin 2:           Not connected              / 6||5 \
-- Pin 3:  GND      Ground                    | 4 || 3 |
-- Pin 4:  Vcc      +5 V DC at 275 mA          \ 2  1 /
-- Pin 5:  +CLK     Clock                        ----
+<img align="right" src="/overview/ps2pinout.png" title="Angular" hspace="20" height="150" width="150"/>
+<pre>                             
+- Pin 1:  +DATA    Data                       
+- Pin 2:           Not connected         
+- Pin 3:  GND      Ground                 
+- Pin 4:  Vcc      +5 V DC at 275 mA       
+- Pin 5:  +CLK     Clock                 
 - Pin 6:           Not connected              
 </pre>
 
