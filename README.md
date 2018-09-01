@@ -295,7 +295,7 @@ hysts = hyst(time, signal, 1, 60, 10).hysts
 
 ### Acknowledgments
 
-* [Sniff keystrokes with lasers/voltmeters -Defcon 2009](http://www.blackhat.com/presentations/bh-usa-09/BARISANI/BHUSA09-Barisani-Keystrokes-SLIDES.pdf)
+* [Sniff keystrokes with lasers/voltmeters -Defcon 2009](https://dev.inversepath.com/download/tempest/tempest_2009.pdf)
 
 ---
 
