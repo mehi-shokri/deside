@@ -67,7 +67,7 @@ one bit at a time. Also, PS/2 use is widely spread across IoT solutions and Crit
 
 
 
-As the wires are very close and not shielded against each other it is theorized
+As wires are very close and not shielded against each other it is theorized
 that a fortuitous leakage of information goes from the data wire to the ground
 wire and/or cable shielding due to electromagnetic coupling.
 
@@ -78,7 +78,7 @@ be detected on the power outlet itself, including nearby ones sharing the same
 electric line.
 
 Being in the VLF range, the clock frequency of the PS/2 signal is lower than any other component or
-signal emanated from the PC (everything else is typically above the MHz), this
+signal emanated from a computer (everything else is typically above the MHz), this
 allows noise filtering and keystrokes signal extraction.
 
 &nbsp; 
