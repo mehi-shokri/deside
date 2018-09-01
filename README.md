@@ -68,18 +68,18 @@ one bit at a time. Also, PS/2 use is widely spread across IoT solutions and Crit
 
 
 As wires are very close and not shielded against each other it is theorized
-that a fortuitous leakage of information goes from the data wire to the ground
+that a fortuitous leakage of information will go from the data wire to the ground
 wire and/or cable shielding due to electromagnetic coupling.
 
 The ground wire as well as the cable shielding are routed to the main power
 adapter/cable ground which is then connected to the power socket and finally
-the electric grid. This eventually leads to keystrokes leakage to the electric grid which can then
+the electric grid. This eventually leads to keystroke leakage to the electric grid which can then
 be detected on the power outlet itself, including nearby ones sharing the same
 electric line.
 
 Being in the VLF range, the clock frequency of the PS/2 signal is lower than any other component or
 signal emanated from a computer (everything else is typically above the MHz), this
-allows noise filtering and keystrokes signal extraction.
+allows noise filtering and signal extraction.
 
 &nbsp; 
 
@@ -96,8 +96,7 @@ main ground cannot be used as the equipment ground, as that would lead to null
 potential difference at the two ends of the probe.
 
 A "reference" ground is any piece of metal with a direct physical connection to
-the Earth, a sink or toilet pipe is perfect for this purpose (while albeit not
-very classy) and easily reachable (especially if you are hacking the ATM from the bank branch restrooms or going full-spy on a hotel room).
+the Earth, a sink or toilet pipe is perfect for this purpose and easily reachable (especially if you are hacking the ATM from the bank branch restrooms or going full-spy on a hotel room).
 
 &nbsp; 
 
@@ -133,8 +132,8 @@ a typical copper cable with a coefficient of 0.1 dB after 60m theoretically
 (strong emphasis here) 50% of the signal survives. For reference a typical
 leakage emission has an output power of ~1 nW (10^-9 Watt).*
 
-In conclusion the results clearly show that information about the keyboard
-keystrokes indeed leaks on the power grid and can be remotely detected.
+In conclusion, results clearly show that information indeed leaks to the power grid and keystrokes can be remotely measured and processed with great reliability.
+
 
 &nbsp; 
 
