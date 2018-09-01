@@ -35,7 +35,7 @@ For a brief overlook at some of the program's key features, run it like so. Note
 
 The PS/2 signal represents an appealing and relatively favourable target for
 eavesdropping. The main advantage is its serial nature as data is transmitted
-one bit at a time. Also, PS/2 use is widely spread across IoT solutions, such as [ATM](https://www.alibaba.com/product-detail/Vandalproof-16-Keys-Stainless-Steel-Keyboard_60817438401.html?spm=a2700.galleryofferlist.normalList.23.47c676f0u6gqsh) or  [Security Access Control Systems.](http://www.seaelectronica.com.ar/lectores-rfid/para-pc/rfid-ps2)
+one bit at a time. Also, PS/2 use is widely spread across IoT solutions and Critical Systems, such as [ATM](https://www.alibaba.com/product-detail/Vandalproof-16-Keys-Stainless-Steel-Keyboard_60817438401.html?spm=a2700.galleryofferlist.normalList.23.47c676f0u6gqsh) or  [Security Access Control.](http://www.seaelectronica.com.ar/lectores-rfid/para-pc/rfid-ps2)
 
 &nbsp; 
 
