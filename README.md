@@ -40,6 +40,7 @@ one bit at a time. Also, PS/" is use is idely spread across IoT solutions, such 
 Cable Pinout:
 
 <img align="right" src="/overview/ps2pinout.png" title="Angular" hspace="20" height="150" width="150"/>
+
 <pre>                             
 - Pin 1:  +DATA    Data                       
 - Pin 2:           Not connected         
@@ -48,6 +49,15 @@ Cable Pinout:
 - Pin 5:  +CLK     Clock                 
 - Pin 6:           Not connected              
 </pre>
+<!--
+\- Pin 1:  +DATA    Data                       
+\- Pin 2:           Not connected         
+\- Pin 3:  GND      Ground                 
+\- Pin 4:  Vcc      +5 V DC at 275 mA       
+\- Pin 5:  +CLK     Clock                 
+\- Pin 6:           Not connected              
+-->
+
 
 
 As the wires are very close and not shielded against each other it is theorized
@@ -62,12 +72,14 @@ This eventually leads to keystrokes leakage to the electric grid which can then
 be detected on the power outlet itself, including nearby ones sharing the same
 electric line.
 
-The clock frequency of the PS/2 signal is lower than any other component or
+Being in the VLF range, the clock frequency of the PS/2 signal is lower than any other component or
 signal emanated from the PC (everything else is typically above the MHz), this
 allows noise filtering and keystrokes signal extraction.
 
+&nbsp; 
+
 In order to implement the attack the ground from a nearby power socket is
-routed to the ADC using a modified power cable (remember the disclaimer) which
+routed to an oscilloscope used as an ADC using a modified power cable (remember the disclaimer) which
 separates the ground wire for probing and includes a resistor between the two
 probe hooks. The current dispersed on the ground is measured using the voltage
 potential difference between the two ends of the resistor.
