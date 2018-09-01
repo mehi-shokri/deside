@@ -38,6 +38,7 @@ eavesdropping. The main advantage is its serial nature as data is transmitted
 one bit at a time. Also, PS/" is use is idely spread across IoT solutions, such as [ATMs](https://www.alibaba.com/product-detail/Vandalproof-16-Keys-Stainless-Steel-Keyboard_60817438401.html?spm=a2700.galleryofferlist.normalList.23.47c676f0u6gqsh) or Access Control Systems.
 
 Cable Pinout:
+
 <img align="right" src="/overview/ps2pinout.png" title="Angular" hspace="20" height="150" width="150"/>
 <pre>                             
 - Pin 1:  +DATA    Data                       
