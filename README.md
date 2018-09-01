@@ -92,8 +92,7 @@ potential difference at the two ends of the probe.
 
 A "reference" ground is any piece of metal with a direct physical connection to
 the Earth, a sink or toilet pipe is perfect for this purpose (while albeit not
-very classy) and easily reachable (especially if you are performing the attack
-from an hotel room).
+very classy) and easily reachable (especially if you are hacking the ATM from the bank branch restrooms or going full-spy on a hotel room).
 
 &nbsp; 
 
