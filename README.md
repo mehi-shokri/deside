@@ -134,7 +134,8 @@ keystrokes indeed leaks on the power grid and can be remotely detected.
 
 &nbsp; 
 
-Other potential uses for this software might be:
+
+**Other potential uses for this software might be:**
 - Touchless, passive, PCB/IC micro probing.
 - Over-The-Air data leakage analysis, wireless receiver (ADC connected to an antenna).
 - General TEMPEST.
