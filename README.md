@@ -1,5 +1,5 @@
-# deside COMING-SOON
-A tool for side chanel data leakage attacks. Pre-alpha.
+# deside 
+A tool for side chanel data leakage attacks. Alpha.
 
 
 ## Install
