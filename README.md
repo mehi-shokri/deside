@@ -33,17 +33,21 @@ For a brief overlook at some of the program's key features, run it like so. Note
 
 ## Attack scenario
 
-*Coming soon.
-[Tip](https://www.alibaba.com/product-detail/Vandalproof-16-Keys-Stainless-Steel-Keyboard_60817438401.html?spm=a2700.galleryofferlist.normalList.23.47c676f0u6gqsh)
+The PS/2 signal represents an appealing and relatively favourable target for
+eavesdropping. The main advantage is its serial nature as data is transmitted
+one bit at a time. Also, PS/" is use is idely spread across IoT solutions, such as [ATMs](https://www.alibaba.com/product-detail/Vandalproof-16-Keys-Stainless-Steel-Keyboard_60817438401.html?spm=a2700.galleryofferlist.normalList.23.47c676f0u6gqsh) or Access Control Systems.
 
-The PS/2 cable of wired keyboards and mice carries the following wires:
+Cable Pinout:
 
-                                  ---- 
-- Pin 1: Data                   / 6||5 \
-- Pin 3: Ground                | 4 || 3 |
-- Pin 4: +5 V DC                \ 2  1 /
-- Pin 5: Clock                    ----
-- Pin 2/6: Unused
+<pre>
+                                  
+- Pin 1:  +DATA    Data                         ---- 
+- Pin 2:           Not connected              / 6||5 \
+- Pin 3:  GND      Ground                    | 4 || 3 |
+- Pin 4:  Vcc      +5 V DC at 275 mA          \ 2  1 /
+- Pin 5:  +CLK     Clock                        ----
+- Pin 6:           Not connected              
+</pre>
 
 
 As the wires are very close and not shielded against each other it is theorized
@@ -104,7 +108,19 @@ Diagram:
                              -----                     -----------------
                               ---  "reference" gnd
                                -
-```                            
+```           
+
+Andrea "lcars" Barisani and Daniele Bianco's research shows there is no significant degradation of signal quality between 1 and 15 meter tests, suggesting that attenuation is not a concern at this range.
+
+*It should be noted that attenuation coefficients for wire copper are often
+estimated for much higher frequencies (>1Mhz) than the PS/2 signal, considering
+a typical copper cable with a coefficient of 0.1 dB after 60m theoretically
+(strong emphasis here) 50% of the signal survives. For reference a typical
+leakage emission has an output power of ~1 nW (10^-9 Watt).*
+
+In conclusion the results clearly show that information about the keyboard
+keystrokes indeed leaks on the power grid and can be remotely detected.
+
 
 <a name="filters"></a>
 ## Smoothing Filters
