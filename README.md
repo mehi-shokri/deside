@@ -36,6 +36,76 @@ For a brief overlook at some of the program's key features, run it like so. Note
 *Coming soon.
 [Tip](https://www.alibaba.com/product-detail/Vandalproof-16-Keys-Stainless-Steel-Keyboard_60817438401.html?spm=a2700.galleryofferlist.normalList.23.47c676f0u6gqsh)
 
+The PS/2 cable of wired keyboards and mice carries the following wires:
+
+                                  ---- 
+- Pin 1: Data                   / 6||5 \
+- Pin 3: Ground                | 4 || 3 |
+- Pin 4: +5 V DC                \ 2  1 /
+- Pin 5: Clock                    ----
+- Pin 2/6: Unused
+
+
+As the wires are very close and not shielded against each other it is theorized
+that a fortuitous leakage of information goes from the data wire to the ground
+wire and/or cable shielding due to electromagnetic coupling.
+
+The ground wire as well as the cable shielding are routed to the main power
+adapter/cable ground which is then connected to the power socket and finally
+the electric grid.
+
+This eventually leads to keystrokes leakage to the electric grid which can then
+be detected on the power outlet itself, including nearby ones sharing the same
+electric line.
+
+The clock frequency of the PS/2 signal is lower than any other component or
+signal emanated from the PC (everything else is typically above the MHz), this
+allows noise filtering and keystrokes signal extraction.
+
+In order to implement the attack the ground from a nearby power socket is
+routed to the ADC using a modified power cable (remember the disclaimer) which
+separates the ground wire for probing and includes a resistor between the two
+probe hooks. The current dispersed on the ground is measured using the voltage
+potential difference between the two ends of the resistor.
+
+With "nearby" power socket we identify anything connected to the same electric
+system within a reasonable range, distances are discussed in the results
+paragraph.
+
+In order to accomplish the measurement a "reference" ground is needed, as any
+ADC would need a proper ground for its own operation but at the same time the
+electrical grid ground is the target of our measurements. Because of this the
+main ground cannot be used as the equipment ground, as that would lead to null
+potential difference at the two ends of the probe.
+
+A "reference" ground is any piece of metal with a direct physical connection to
+the Earth, a sink or toilet pipe is perfect for this purpose (while albeit not
+very classy) and easily reachable (especially if you are performing the attack
+from an hotel room).
+
+Diagram:
+
+```
+         power socket     power socket
+    --------- : -------------- : ------------------------------ . . .
+   |          ^                ^
+   |          |                |                       -----------------
+ -----        |                * -------------------> | Vin             |
+  ---       ----               |                      |                 |
+   -       | PC |              |                      |                 |
+  gnd       ----               -                      |                 |
+           /   / ps/2         | |                     |     Analog      |
+    ps/2  /   /               | | ~ 150 Ohm           |        2        |
+         /  mouse             | |  probe resistor     |     Digital     |
+     keyboard                  -                      |                 |
+                               |                      |                 |
+                               * -------------------> | Vref            |
+                               |                      |                 |
+                             -----                     -----------------
+                              ---  "reference" gnd
+                               -
+```                            
+
 <a name="filters"></a>
 ## Smoothing Filters
 Animation showing SG smoothing being applied, passing through the data from left to right. The red line represents the local polynomial being used to fit a sub-set of the data. The smoothed values are shown as circles.
