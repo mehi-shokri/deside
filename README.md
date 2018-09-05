@@ -140,7 +140,8 @@ In conclusion, results clearly show that information is indeed leaked to the pow
 
 **Other potential uses for this software might be:**
 - Touchless, passive, PCB/IC micro probing.
-- Over-The-Air data leakage analysis, wireless receiver (ADC connected to an antenna).
+- Over-The-Air data leakage analysis, radio receiver (ADC connected to a coil). [ECDH Key-Extraction via Low-Bandwidth
+Electromagnetic Attacks.](http://cs.tau.ac.il/%7Etromer/papers/ecdh.pdf)
 - General TEMPEST.
 - General scientific data processing.
 
